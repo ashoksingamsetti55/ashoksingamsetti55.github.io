@@ -10987,3 +10987,8 @@ section.resume-section .resume-section-content {
   border: 3px solid white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 991.98px) {
+  .resume-section-content h1 {
+    display: none; /* hide desktop name block in mobile */
+  }
+}
